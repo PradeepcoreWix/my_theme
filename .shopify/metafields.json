@@ -1,0 +1,258 @@
+{
+  "article": [],
+  "blog": [],
+  "brand": [],
+  "collection": [
+    {
+      "key": "favorite",
+      "namespace": "custom",
+      "name": "favorite",
+      "description": "",
+      "type": {
+        "name": "collection_reference",
+        "category": "REFERENCE"
+      }
+    }
+  ],
+  "company": [],
+  "company_location": [],
+  "location": [],
+  "market": [],
+  "order": [],
+  "page": [
+    {
+      "key": "favourite",
+      "namespace": "custom",
+      "name": "favourite",
+      "description": "",
+      "type": {
+        "name": "collection_reference",
+        "category": "REFERENCE"
+      }
+    },
+    {
+      "key": "demo",
+      "namespace": "custom",
+      "name": "demo",
+      "description": "",
+      "type": {
+        "name": "single_line_text_field",
+        "category": "TEXT"
+      }
+    }
+  ],
+  "product": [
+    {
+      "key": "trade_item_description",
+      "namespace": "import_information",
+      "name": "Trade item description",
+      "description": "A precise product description that describes specific attributes of the product for customs and import.",
+      "type": {
+        "name": "multi_line_text_field",
+        "category": "TEXT"
+      }
+    },
+    {
+      "key": "queries",
+      "namespace": "shopify--discovery--product_search_boost",
+      "name": "Search product boosts",
+      "description": "List of search queries for which a product gets higher rank in search results",
+      "type": {
+        "name": "list.single_line_text_field",
+        "category": "TEXT"
+      }
+    },
+    {
+      "key": "related_products",
+      "namespace": "shopify--discovery--product_recommendation",
+      "name": "Related products",
+      "description": "List of related products",
+      "type": {
+        "name": "list.product_reference",
+        "category": "REFERENCE"
+      }
+    },
+    {
+      "key": "related_products_display",
+      "namespace": "shopify--discovery--product_recommendation",
+      "name": "Related products settings",
+      "description": "Determines how related products are displayed along with algorithmic product recommendations",
+      "type": {
+        "name": "single_line_text_field",
+        "category": "TEXT"
+      }
+    },
+    {
+      "key": "complementary_products",
+      "namespace": "shopify--discovery--product_recommendation",
+      "name": "Complementary products",
+      "description": "List of complementary products",
+      "type": {
+        "name": "list.product_reference",
+        "category": "REFERENCE"
+      }
+    },
+    {
+      "key": "color-pattern",
+      "namespace": "shopify",
+      "name": "Color",
+      "description": "Defines the primary color or pattern, such as blue or striped",
+      "type": {
+        "name": "list.metaobject_reference",
+        "category": "REFERENCE"
+      }
+    },
+    {
+      "key": "size",
+      "namespace": "shopify",
+      "name": "Size",
+      "description": "Used to specify the size of a product, such as 0-3 months or Extra large (XL)",
+      "type": {
+        "name": "list.metaobject_reference",
+        "category": "REFERENCE"
+      }
+    },
+    {
+      "key": "age-group",
+      "namespace": "shopify",
+      "name": "Age group",
+      "description": "Defines the target age range for a product, such as adults or kids",
+      "type": {
+        "name": "list.metaobject_reference",
+        "category": "REFERENCE"
+      }
+    },
+    {
+      "key": "fit",
+      "namespace": "shopify",
+      "name": "Fit",
+      "description": "Describes the fit of a garment, typically pant shape; e.g. skinny leg, wide",
+      "type": {
+        "name": "list.metaobject_reference",
+        "category": "REFERENCE"
+      }
+    },
+    {
+      "key": "target-gender",
+      "namespace": "shopify",
+      "name": "Target gender",
+      "description": "Identifies the intended gender for a product, such as female, male or unisex",
+      "type": {
+        "name": "list.metaobject_reference",
+        "category": "REFERENCE"
+      }
+    },
+    {
+      "key": "subtitle",
+      "namespace": "descriptors",
+      "name": "Product subtitle",
+      "description": "Used as a shorthand for a product name",
+      "type": {
+        "name": "single_line_text_field",
+        "category": "TEXT"
+      }
+    },
+    {
+      "key": "product_information",
+      "namespace": "custom",
+      "name": "Product Information",
+      "description": "",
+      "type": {
+        "name": "single_line_text_field",
+        "category": "TEXT"
+      }
+    },
+    {
+      "key": "care_guide",
+      "namespace": "descriptors",
+      "name": "Care guide",
+      "description": "Instructions for taking care of a product or apparel",
+      "type": {
+        "name": "multi_line_text_field",
+        "category": "TEXT"
+      }
+    },
+    {
+      "key": "country",
+      "namespace": "custom",
+      "name": "Country",
+      "description": "",
+      "type": {
+        "name": "list.single_line_text_field",
+        "category": "TEXT"
+      }
+    },
+    {
+      "key": "care_instructions",
+      "namespace": "custom",
+      "name": "care instructions",
+      "description": "",
+      "type": {
+        "name": "list.single_line_text_field",
+        "category": "TEXT"
+      }
+    },
+    {
+      "key": "modle_info",
+      "namespace": "models",
+      "name": "model info",
+      "description": "",
+      "type": {
+        "name": "list.metaobject_reference",
+        "category": "REFERENCE"
+      }
+    },
+    {
+      "key": "firmness",
+      "namespace": "shopify",
+      "name": "Firmness",
+      "description": "Defines the level of firmness in items like furniture or mattresses, e.g. extra soft, firm",
+      "type": {
+        "name": "list.metaobject_reference",
+        "category": "REFERENCE"
+      }
+    },
+    {
+      "key": "seat-upholstery-color",
+      "namespace": "shopify",
+      "name": "Seat upholstery color",
+      "description": "Identifies the color of a furniture item's seat upholstery, such as beige or blue",
+      "type": {
+        "name": "list.metaobject_reference",
+        "category": "REFERENCE"
+      }
+    },
+    {
+      "key": "seat-type",
+      "namespace": "shopify",
+      "name": "Seat type",
+      "description": "Describes the design of a chair or bench seat, such as padded or bucket ",
+      "type": {
+        "name": "list.metaobject_reference",
+        "category": "REFERENCE"
+      }
+    },
+    {
+      "key": "backrest-type",
+      "namespace": "shopify",
+      "name": "Backrest type",
+      "description": "Specifies the material or style of a chair's backrest; e.g. mesh, padded",
+      "type": {
+        "name": "list.metaobject_reference",
+        "category": "REFERENCE"
+      }
+    },
+    {
+      "key": "upholstery-material",
+      "namespace": "shopify",
+      "name": "Upholstery material",
+      "description": "Identifies the fabric used for upholstery, such as leather or velvet",
+      "type": {
+        "name": "list.metaobject_reference",
+        "category": "REFERENCE"
+      }
+    }
+  ],
+  "variant": [],
+  "shop": []
+}
