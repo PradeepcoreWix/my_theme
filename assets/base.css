@@ -1,0 +1,37 @@
+.custom-header {
+    width: 100%;
+    background: #fff;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .header-container {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo img {
+    height: 50px;
+  }
+  
+  .main-navigation ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+  }
+  
+  .main-navigation a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .header-icons {
+    font-size: 20px;
+  }
+  
